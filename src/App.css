@@ -1,28 +1,37 @@
-.App {
+.app {
   text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.menu {
+  margin: auto;
+  display: flex;
+  height: 100px;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.menu-item {
+  display: block;
+  width: 100px;
+  margin: auto;
 }
 
-.App-title {
-  font-size: 1.5em;
+.menu-item a {
+  text-decoration: none;
+  color: #696969;
+  cursor: pointer;
 }
 
-.App-intro {
-  font-size: large;
+.app-header {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app-slogan {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 5px;
 }
