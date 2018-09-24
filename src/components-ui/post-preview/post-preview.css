@@ -1,0 +1,51 @@
+.post-preview-container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  margin: 20px auto;
+  border: 2px solid #d3f5ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-preview-image {
+  width: 200px;
+  height: 200px;
+  border-right: 2px solid #d3f5ff;
+  display: block;
+}
+
+.react-category {
+  background: url('../../images/react.png') center no-repeat;
+  background-size: contain;
+}
+
+.redux-category {
+  background: url('../../images/redux.png') center no-repeat;
+  background-size: contain;
+}
+
+.udacity-category {
+  background: url('../../images/udacity.png') center no-repeat;
+  background-size: contain;
+}
+
+.preview-content {
+  display: block;
+  width: 600px;
+  text-align: left;
+  margin-left: 50px;
+  position: relative;
+}
+
+.post-vote-score {
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+.post-preview-date {
+  margin-top: 20px;
+  color: #696969;
+  font-weight: 300;
+}

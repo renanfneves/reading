@@ -1,0 +1,33 @@
+.comment-container {
+  width: 500px;
+  margin: 20px auto;
+  border: 2px solid #d3f5ff;
+  font-weight: 300;
+  color: #696969;
+}
+
+.comment-author {
+  margin: 10px 120px;
+  display: block;
+}
+
+.comment-body {
+  text-align: left;
+  padding: 20px;
+}
+
+.comment-buttons {
+  display: inline;
+  margin: 0;
+}
+
+.comment-score {
+  margin: 0 5px 5px auto;
+  width: 50px;
+  text-align: left;
+}
+
+.comment-score-button {
+  margin: auto 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.categories-container {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.category-item {
+  width: 200px;
+  margin: auto;
+  cursor: pointer;
+  border: 2px solid #d3f5ff;
+  border-radius: 4px;
+}
+
+.chosen-category {
+  background: #d3f5ff;
+}

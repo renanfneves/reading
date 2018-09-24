@@ -1,0 +1,61 @@
+.new-post-title {
+  width: 800px;
+  margin: 50px auto 10px;
+  border: 2px solid #d3f5ff;
+  border-radius: 4px;
+  color: #696969;
+  font-weight: 300;
+}
+
+.new-post-form {
+  width: 800px;
+  margin: auto auto 50px;
+  display: block;
+  border: 2px solid #d3f5ff;
+  border-radius: 4px;
+}
+
+.form-combo {
+  width: 700px;
+  padding: 0 50px;
+  margin: 10px auto;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-weight: 300px;
+  color: #696969;
+  text-align: left;
+  display: block;
+}
+
+.new-post-form input,
+.new-post-form textarea,
+.new-post-form select,
+.new-post-form button {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  margin: 10px auto 20px;
+  box-sizing: border-box;
+}
+
+.form-input, .form-select {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.form-submit {
+  height: 45px;
+  color: #696969;
+  cursor: pointer;
+}
+
+.form-textarea {
+  height: 300px;
+  padding: 10px;
+}
+
+.form-textarea::placeholder {
+  text-transform: uppercase;
+}
