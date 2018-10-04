@@ -21,7 +21,7 @@ This project depends of an api server running on localhost:3001 (see more about 
 ## Platform
  - React
  - Redux
- - react-test-renderer (tests library)
+ - react-test-renderer
 
 ## Setup
  - First of all, you have to download or clone the server api, available on https://github.com/udacity/reactnd-project-readable-starter
